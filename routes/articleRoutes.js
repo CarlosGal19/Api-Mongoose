@@ -7,7 +7,7 @@ ArticleRouter.get('/', async (req, res) => {
     getArticles(req, res);
 });
 
-ArticleRouter.post('/', async ( req, res) => {
+ArticleRouter.post('/', async (req, res) => {
     addArticle(req, res);
 });
 

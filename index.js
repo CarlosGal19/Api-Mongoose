@@ -32,7 +32,7 @@ const PORT = 3000;
 connectDB();
 
 const allowDomains = [
-    'http://localhost:5173/',
+    'http://localhost:5173',
 ];
 
 const corsOptions = {
